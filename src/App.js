@@ -15,21 +15,20 @@ function App() {
   
   console.log(data.region);
   const regions=[];
+  let regionList=['Klaida. Nepavyko pasiimti duomenų'];
+  console.log(data);
 
-
-  
-
-  for(const country of data){
-    if(!regions.includes(country.region)){
-      regions.push(country.region);
+  if (!isError){
+    for(const country of data){
+      if(!regions.includes(country.region)){
+        regions.push(country.region);
+      }
     }
-  }
-  console.log(regions);
-
-  const regionList = regions.map((region, idx) => (
-    <Region title={region} countries={data.filter(country => country.region===region)}/>
-  ));
-
+    regionList = regions.map((region, idx) => (
+      <Region title={region} countries={data.filter(country => country.region===region)}/>
+    ));
+  } 
+  
   return (
     <div className="App">
       {regionList}
