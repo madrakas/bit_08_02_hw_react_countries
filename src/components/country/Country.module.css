@@ -1,0 +1,32 @@
+.country{
+    display: flex;
+    margin: 1rem;
+    border: 1px black solid;
+}
+
+.flagContainer{
+    display: flex;
+
+}
+
+.flag{
+    display: flex;
+    width: 8rem;
+    height: 8rem;
+    background-color: aquamarine;
+}
+
+.details{
+    display: flex;
+    flex-direction: column;
+    background-color: burlywood;
+}
+
+.title{
+    font-size: 2rem;
+    margin: 0.2rem 0;
+}
+
+.description {
+    color: brown;
+}

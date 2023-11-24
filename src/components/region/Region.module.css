@@ -1,0 +1,15 @@
+.region{
+    display:flex;
+    margin: 1rem 0;
+    flex-direction: column;
+    width: 100;
+}
+
+.h2{
+    font-size: 3rem;
+}
+.countryList{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
