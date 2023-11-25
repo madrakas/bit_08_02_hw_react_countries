@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/bit_12_countries_list/static/css/main.30092ecc.css",
+    "main.js": "/bit_12_countries_list/static/js/main.14f0f019.js",
+    "index.html": "/bit_12_countries_list/index.html",
+    "main.30092ecc.css.map": "/bit_12_countries_list/static/css/main.30092ecc.css.map",
+    "main.14f0f019.js.map": "/bit_12_countries_list/static/js/main.14f0f019.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.30092ecc.css",
+    "static/js/main.14f0f019.js"
+  ]
+}
