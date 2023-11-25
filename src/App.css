@@ -1,0 +1,23 @@
+.App{
+
+}
+
+.filterContainer{
+  display: flex;
+  gap: 1rem;
+  padding: 1rem 2rem;
+  align-items: baseline;
+  justify-content: flex-end;
+  width: 100%;
+  /* height: 2rem; */
+  background-color: burlywood;
+ }
+
+label {
+
+}
+
+input, select{
+  padding: 5px;
+  width: 15rem;
+}
